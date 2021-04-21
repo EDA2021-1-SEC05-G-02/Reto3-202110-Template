@@ -1,5 +1,11 @@
 #ISIS1225 - Librerias de soporte
 
+Juan Manuel Rodriguez diaz - 202013372 - req 1 y 2 - j.rodriguezd@uniandes.edu.co
+
+Juan Diego Cruz Vega - 202015077 - req 3 y 4 - j.cruzv@uniandes.edu.co
+
+
+
 Este proyecto contiene los Tipos abstractos de datos, estructuras de datos y algoritmos requeridos por el curso ISIS1225-Estructuras de Datos y Algoritmos
 
 -Lib
