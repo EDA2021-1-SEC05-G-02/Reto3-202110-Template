@@ -754,7 +754,7 @@ def indexSize(analyzer):
     """
     return om.size(analyzer['index'])
 def cargarCategorias():
-    vfile = cf.data_dir + "user_track_hashtag_timestamp-small.csv"
+    vfile = cf.data_dir + "user_track_hashtag_timestamp-large.csv"
     reader = csv.DictReader(open(vfile,encoding="utf-8"))
     cat = []
     for line in reader:

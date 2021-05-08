@@ -6,8 +6,8 @@ from DISClib.ADT import orderedmap as om
 from DISClib.ADT import map as m
 from App import controller
 assert config
-crimefile = "context_content_features-small.csv"
-crimefile_2="user_track_hashtag_timestamp-small.csv"
+crimefile = "context_content_features-large.csv"
+crimefile_2="user_track_hashtag_timestamp-large.csv"
 crimefile_3="sentiment_values.csv"
 """INTENTEN CON EL GRANDE"""
 
@@ -54,6 +54,7 @@ while True:
         print("\nInformacion caragada exitosamente")
         print("Se cargaron",m.size(analyzer["eventos"]),"eventos.")
         print("Se cargaron",m.size(analyzer_2["usuarios"]),"artistas únicos.")
+
     elif int(inputs[0]) == 3:
         caracteristica=input("Deme la característica: ")
         caracteristica.lower()
@@ -65,6 +66,7 @@ while True:
         else:
             print(caracteristica+" se encuentra entre "+str(valor_minimo)+" y "+str(valor_maximo))
             print("Total de reproducciones: "+str(Requerimiento_1[0])+" Total de artistas únicos: "+str(Requerimiento_1[1]))
+
     elif int(inputs[0]) == 4:
         energy_min=float(input("Energía mínima: "))
         energy_max=float(input("Energía máxima: "))
@@ -98,6 +100,7 @@ while True:
                 cont+=1
         else:
             print("Revise los valores agregados")
+
     elif int (inputs [0])==6:
         opcion=str(input("Digite True si desea agregar un género nuevo: "))
         lst = []
@@ -135,6 +138,7 @@ while True:
                 else:
                     print("Artista"+str(contador)+": "+str(i[contador]))
                     contador+=1
+                    
     elif int(inputs[0])==7:
         date=str(input("Deme hora inicial: "))
         date2=str(input("Deme hora final: "))
