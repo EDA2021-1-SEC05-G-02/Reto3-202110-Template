@@ -1,8 +1,8 @@
 #ISIS1225 - Librerias de soporte
 
-Juan Manuel Rodriguez diaz - 202013372 - req 1 y 2 - j.rodriguezd@uniandes.edu.co
+Juan Manuel Rodriguez diaz - 202013372 - req 1, 2 y 5 - j.rodriguezd@uniandes.edu.co
 
-Juan Diego Cruz Vega - 202015077 - req 3 y 4 - j.cruzv@uniandes.edu.co
+Juan Diego Cruz Vega - 202015077 - req 3, 4 y 5 - j.cruzv@uniandes.edu.co
 
 
 
